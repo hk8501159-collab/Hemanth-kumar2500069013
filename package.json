@@ -1,0 +1,29 @@
+{
+  "name": "hemanth-69013-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "app.js",
+  "description": "An editable personal portfolio built with HTML, CSS, Node.js, Express, and MongoDB.",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --jsx=automatic --minify --outfile=public/app.js",
+    "prestart": "npm run build",
+    "start": "node app.js",
+    "predev": "npm run build",
+    "dev": "node scripts/dev.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "mongoose": "^9.10.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
