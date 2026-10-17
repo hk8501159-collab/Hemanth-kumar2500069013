@@ -1,4 +1,4 @@
-# Hemanth 69013 — Personal Portfolio
+# Hemanth 2500069013 — Personal Portfolio
 
 A responsive portfolio built with semantic HTML, CSS, browser JavaScript, Node.js, Express, and MongoDB. The contact form saves messages to MongoDB.
 
@@ -17,6 +17,8 @@ A responsive portfolio built with semantic HTML, CSS, browser JavaScript, Node.j
 If you use MongoDB Atlas, copy `.env.example` to `.env` and replace `MONGODB_URI` with your connection string. Keep `.env` private. When MongoDB is disconnected, the page still loads and the contact form reports that saving is unavailable.
 
 The React contact form is written in `app.jsx` and bundled to `public/app.js` during `npm run dev`, `npm start`, or `npm run build`.
+
+GitHub profile: [github.com/hk8501159-collab](https://github.com/hk8501159-collab)
 
 ## Make it yours
 

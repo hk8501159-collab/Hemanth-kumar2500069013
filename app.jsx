@@ -29,10 +29,7 @@ function ContactForm() {
       setStatus(result.message);
       form.reset();
     } catch (error) {
-      const subject = encodeURIComponent(values.subject || `Portfolio enquiry from ${values.name}`);
-      const body = encodeURIComponent(`${values.message}\n\nFrom: ${values.name}\nEmail: ${values.email}`);
-      setStatus('Opening your email app to send this note.');
-      window.location.href = `mailto:hello@mayachen.design?subject=${subject}&body=${body}`;
+      setStatus('The public contact form is unavailable right now. Please use the GitHub link on this page.');
     } finally {
       setSending(false);
     }
